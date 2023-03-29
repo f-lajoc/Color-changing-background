@@ -1,0 +1,42 @@
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+#button-stop{
+  margin-left: 10px;
+}
+
+footer{
+  text-align: center;
+  font-size: 2em;
+}
+
+footer, footer a{
+text-decoration: none;
+  animation: changecolor 5s infinite alternate;
+}
+
+/* animation for footer */
+@keyframes changecolor{
+  0%{
+    color: indigo;
+  }
+  20%{
+    color: red;
+  }
+  40%{
+    color: green;
+  }
+  60%{
+    color: yellow;
+  }
+  80%{
+    color: pink;
+  }
+  100%{
+    color: white;
+  }
+}
